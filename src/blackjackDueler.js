@@ -203,7 +203,7 @@ function MainGame() {
       decision = 'open'
     } else {
       //計算牌況差距
-      if(points.opponent - playerPointPredict > 5) {
+      if(points.opponent - playerPointPredict > 8) {
         if(Math.floor(Math.random() * points.opponent) > 8){
           decision = 'open'
         }

@@ -50,7 +50,7 @@ const AlwaysScrollToBottom = () => {
 function MainGame() {
   const [currentPlayer, setCurrentPlayer] = useState('')
   const [phase, setPhase] = useState('')
-  const [deck, setDeck] = useState(...[shuffle([...deckInit()])])
+  const [deck, setDeck] = useState(shuffle(deckInit()))
   const [playerHand, setPlayerHand] = useState([])
   const [opponentHand, setOpponentHand] = useState([])
   const [points, setPoints] = useState({player: 0, opponent: 0})
@@ -163,7 +163,7 @@ function MainGame() {
   useEffect(()=>{
     if(deck.length<=0){
       setInfoLog(state=>[...state, `牌堆用盡，用一副新牌重洗`])
-      setDeck(...[shuffle([...deckInit()])]);
+      setDeck(shuffle(deckInit()));
     }
   },[deck])
 

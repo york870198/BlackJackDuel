@@ -1,6 +1,7 @@
 # BlackJackDueler
 https://york870198.github.io/BlackJackDueler/
-<br>
+
+
 這是一個實驗性的專案，用來測試 React 的功能。
 
 ## 此專案使用的工具
@@ -9,7 +10,9 @@ https://york870198.github.io/BlackJackDueler/
 - [webpack](https://webpack.js.org)
 
 ## 規則
-回合起始時雙方各抽一張暗牌與一張明牌。<br>
+回合起始時雙方各抽一張暗牌與一張明牌。
+
+
 雙方不知道彼此的暗牌，由明牌數值較低的一方先進行他的行動。<br>
 每當輪到一名玩家行動時，他可以選擇抽牌或是開牌。<br>
 如果選擇抽牌，則檢查是否爆牌（點數合計超過 21），爆牌則立刻落敗，否則換另一名玩家行動。<br>

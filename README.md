@@ -1,7 +1,7 @@
 # BlackJackDueler
 https://york870198.github.io/BlackJackDueler/
 <br>
-這是一個實驗性的專案，用來測試 React 的功能。
+這是一個實驗性的專案，\n用來測試 React 的功能。
 
 ## 此專案使用的工具
 - [React](https://zh-hant.reactjs.org)

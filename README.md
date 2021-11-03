@@ -5,9 +5,7 @@ https://york870198.github.io/BlackJackDueler/
 
 ## 此專案使用的工具
 - [React](https://zh-hant.reactjs.org)
-- 
 - [styled-components](https://styled-components.com)
-- 
 - [webpack](https://webpack.js.org)
 
 ## 規則

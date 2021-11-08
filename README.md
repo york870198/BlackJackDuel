@@ -19,6 +19,12 @@ https://york870198.github.io/BlackJackDueler/
 
 如果選擇開牌，則雙方打開手中的牌比較點數大小，較高的一方獲勝。
 
+## 實作重點
+- React with hooks
+  React functional components 的運作
+- Asynchronous function
+  React 中 useState 的非同步處理相關問題、透過 useEffect 的設計控制遊戲階段
+
 ## 你也許會想問的問題
 
 ### 這跟正常的 21 點規則不太一樣

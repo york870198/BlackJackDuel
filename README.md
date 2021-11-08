@@ -21,8 +21,11 @@ https://york870198.github.io/BlackJackDueler/
 
 ## 實作重點
 - React with hooks
+
   React functional components 的運作
+  
 - Asynchronous function
+
   React 中 useState 的非同步處理相關問題、透過 useEffect 的設計控制遊戲階段
 
 ## 你也許會想問的問題
